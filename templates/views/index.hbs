@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    {{>header}}
+
+    <div class="align-center margin-content">
+        <div class="row">
+            <span class="material-icons" style="font-size: 35px; color:black">
+                crop_square
+            </span>
+            <h1>Weather around the World</h1>
+        </div>
+        <h3>"Let's see how is the weather around the world"</h3>
+        <div class="margin-content">
+            <form>
+                <input placeholder="Location">
+                <button>
+                    Search
+                </button>
+            </form>
+        </div>
+        <div class="card">
+            <div class="row">
+                <span class="material-icons">
+                    place
+                </span>
+                <p id="message1">Place</p>
+            </div>
+            <div class="row">
+                <span class="material-icons">
+                    arrow_forward_ios
+                </span>
+                <p id="message2">Temperature</p>
+            </div>
+            <div class="row">
+                <span class="material-icons">
+                    priority_high
+                </span>
+                <p id="message3">Summary</p>
+            </div>
+        </div>
+    </div>
+
+    <p id="message2"></p>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
