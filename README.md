@@ -1,5 +1,6 @@
 # Weather-around-the-globe
 
+<h1>Publicare</h1>
 https://weather-around-the-globe.herokuapp.com/
 
 <h1>Introducere</h1>
@@ -79,3 +80,9 @@ Ecran aplicație web înainte de introducerea unei locații:
 
 Ecran aplicație web după introducerea unei locații pentru a afla vremea:
 ![after](https://user-images.githubusercontent.com/51722820/117655074-432ef780-b19f-11eb-97d8-06dbffdc5319.JPG)
+
+<h1>Referinte</h1>
+- https://docs.mapbox.com/
+- https://darksky.net/
+- https://expressjs.com/
+
